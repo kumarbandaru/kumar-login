@@ -12,6 +12,8 @@ import { AlertComponent } from './alert/alert.component';
 import {FakeBackendInterceptor, fakeBackendProvider} from './services/fake-backend';
 import { JwtInterceptor } from './services/jwt.interceptor';
 import { ErrorInterceptor } from './services/error.interceptor';
+import { SubjectsentComponent } from './subjectsent/subjectsent.component';
+import { SubjectresiveComponent } from './subjectresive/subjectresive.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { ErrorInterceptor } from './services/error.interceptor';
     HomeComponent,
     RegisterComponent,
     LoginComponent,
-    AlertComponent
+    AlertComponent,
+    SubjectsentComponent,
+    SubjectresiveComponent
   ],
   imports: [
     BrowserModule,
